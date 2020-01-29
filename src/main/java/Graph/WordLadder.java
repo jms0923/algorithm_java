@@ -1,7 +1,5 @@
 package Graph;
 
-import com.sun.org.glassfish.gmbal.ParameterNames;
-
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -68,7 +66,7 @@ public class WordLadder {
 
     /*
     * @param first: a string
-    * @param second: a stsring
+    * @param second: a string
     * @return: An integer
     * */
     public static int checkOneDifferent(String first, String second){
