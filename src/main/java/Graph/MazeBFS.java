@@ -56,6 +56,13 @@ public class MazeBFS {
         return result;
     }
 
+    /**
+     *
+     * @param maze          maze
+     * @param started       start point
+     * @param direction     direction / 0 ~ 3 => start from upper side and turns go clockwise
+     * @return              destination when go to this direction
+     */
     int[] goToWall(int[][] maze, int[] started, int direction) {
         int[] result = {};
         int maxYIndex = maze.length - 1;
